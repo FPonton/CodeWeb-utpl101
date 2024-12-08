@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWeb Blog de Tecnología y Programación</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/pagina web/logo-Blog.png" alt="Logo Blog" width="12%">
+        <h1>CodeWeb</h1><h5>Blog de Tecnología y Programación</h5>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="../utpl101/acerca de/acerca de.html">Acerca de</a></li>
+                <li><a href="../utpl101/recursos/recursos.html">Recursos</a></li>
+                <li><a href="../utpl101/contactos/contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div style="display: flex; justify-content: space-between;"> <!-- Contenedor flexible para main y aside -->
+        <main style="width: 75%;"> <!-- Inicio Main -->
+            <section>
+                <h2>Últimas Publicaciones</h2>
+                
+                <article>
+                    <h3>Introducción a HTML</h3><img src="imagenes/pagina web/html5-VSCode.jpg" alt="" width="25%">
+                    <p>En su corazón, HTML es un lenguaje muy sencillo compuesto de elementos, que se pueden aplicar a piezas de texto para darles un significado diferente en un documento...</p>
+                    <a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML"_>Leer más</a>
+                </article>
+
+                <article>
+                    <h2>Uso de Visual Studio Code</h2>
+                    <img src="imagenes/pagina web/visual-studio-code-banner.jpg" alt="" width="25%">
+                    <h3>¿Qué es Visual Studio Code? </h3>
+                    <h5> Visual Studio Code, al que conocemos también como VSCode, es un editor de código para programadores gratuito...</h5>
+                    <!-- Resto del contenido del artículo -->
+                    <a href="https://www.arsys.es/blog/que-es-visual-studio-code-y-cuales-son-sus-ventajas">Leer más</a>
+                </article>
+            </section>
+        </main> <!-- Cierre del main -->
+
+        <aside style="width: 20%;"> <!-- Inicio Aside -->
+            <h3>Artículos relacionados</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps">Cómo empezar con JavaScript</a></li>
+                <img src="imagenes/pagina web/javascript.jpeg" alt="" width="100%">
+                <li><a href="https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS">Entendiendo CSS: conceptos básicos</a></li>
+                <img src="imagenes/pagina web/css.jpg" alt="" width="100%">
+                <li><a href="https://www.ibm.com/docs/es/cics-ts/6.x?topic=applications-developing-nodejs">El desarrollo de aplicaciones web con Node.js</a></li>
+                <img src="imagenes/pagina web/nodejs.png"alt=""width="100%">
+
+            </ul>
+
+            <h3>Recursos útiles</h3>
+            <ul>
+                <li><a href="https://code.visualstudio.com/docs">Documentación oficial de Visual Studio Code</a></li>
+            <li><a href="https://code.visualstudio.com/docs/setup/windows">Guía de Instalacion Visual Studio Code</a></li>
+            <li><a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started">Primeros Pasos en HTML</a></li>
+            </ul>
+        </aside> <!-- Cierre del aside -->
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Blog de Tecnología y Programación<br>Fabricio Pontón - UTPL</p>
+    </footer>
+</body>
+</html>
