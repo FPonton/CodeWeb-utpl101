@@ -1,0 +1,337 @@
+/* Estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos generales para el resto de la página */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1, header h5 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Estilos generales para el resto de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1, header h5 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo de las secciones */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Estilo general para centrar contenido */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrado de todo el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Estilo general para centrar contenido */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrado de todo el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor de la sección de contacto */
+.contact-section {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario de contacto */
+form {
+    margin: 0 auto;
+    text-align: left; /* Alineación de texto en el formulario */
+    max-width: 600px; /* Ancho máximo del formulario */
+}
+
+/* Estilo de los campos de formulario */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    width: auto;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo de la sección de contacto adicional (teléfono y redes sociales) */
+.contact-info p {
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    color: #007BFF;
+}
+
+/* Estilo de los íconos de redes sociales */
+.social-links {
+    display: inline-flex; /* Íconos en una línea */
+    justify-content: center;
+    gap: 15px; /* Espacio más amplio entre los íconos */
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 40px; /* Aumentar el tamaño de los íconos */
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007BFF;
+    transform: scale(1.2); /* Agrandar íconos ligeramente al hacer hover */
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+/* Estilos básicos del carrusel */
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Carrusel más ancho */
+    margin: auto;
+    overflow: hidden; /* Oculta las imágenes que no están visibles */
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease; /* Transición suave para el deslizamiento */
+}
+
+.carousel-item {
+    min-width: 100%; /* Cada item ocupa el 100% del ancho del carrusel */
+    flex-shrink: 0; /* No debe reducir su tamaño */
+}
+
+.carousel-item img {
+    width: 100%; /* Las imágenes ocupan todo el contenedor */
+    height: 400px; /* Ajusta la altura según lo que necesites */
+    object-fit: cover; /* Hace que las imágenes se recorten correctamente */
+}
+
+/* Estilo para los botones de navegación */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Efecto de hover para los botones */
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

@@ -4,33 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Tecnología y Programación</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- FontAwesome para los íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <img src="../imagenes/pagina web/logo-Blog.png" alt="Logo Blog" width="12%">
-        <h1>CodeWeb</h1><h5>Blog de Tecnología y Programación</h5>
-        <nav>
+        <h1>CodeWeb</h1>
+        <h5>Blog de Tecnología y Programación</h5>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../../utpl101/acerca de/acerca de.html">Acerca de</a></li>
                 <li><a href="../../utpl101/recursos/recursos.html">Recursos</a></li>
-                <li><a href="utpl101/contactos/contactos.html">Contacto</a></li>
+                <li><a href="../../utpl101/contactos/contactos.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <section class="contact-section">
         <h2>Contacto</h2>
-        <form action="mailto:contacto@tublog.com" method="post" enctype="text/plain">
-            <label for="name">Nombre:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">Correo Electrónico:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="message">Mensaje:</label><br>
-            <textarea id="message" name="message"></textarea><br><br>
-            <input type="submit" value="Enviar">
+        <form action="mailto:contacto@codeweb.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Formulario de Contacto</legend>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" placeholder="Tu nombre completo" required><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </fieldset>
         </form>
+
+        <div class="contact-info">
+            <h3>O contáctanos directamente</h3>
+            <p><strong>Teléfono:</strong> +123 456 789</p>
+            <p><strong>Redes Sociales:</strong></p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
     </section>
 
     <footer>
